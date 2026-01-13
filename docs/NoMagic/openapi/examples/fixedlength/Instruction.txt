@@ -1,0 +1,2 @@
+Remark:
+	In FixedLengthNumbering package, the Number Part - Level 3 of Package Numbering Scheme is configured the initial value is "000000". So the numbering will be "000001","000002", and so on.  

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.nomagic.magicdraw.variants.examples.plugin" name="ExamplePlugin" version="1.0" provider-name="Coder" class="com.nomagic.magicdraw.variants.examples.ExamplePlugin">
+    <requires>
+		<required-plugin id="com.nomagic.magicdraw.variants" name="Product Line Engineering"/>
+    </requires>
+    <runtime>
+        <library name="ExamplePlugin.jar"/>
+    </runtime>
+</plugin>

@@ -1,0 +1,23 @@
+Instruction
+
+MD configuration in order to make numbering appear by project.
+1. Click "Options" > "Project" menu then "Project Options" dialog will appear. 
+2. Click on "General project options" in the tree of left panel 
+3. Go to  "Numbering" section in right panel.
+4. Set "Use Element Auto-numbering" and "Display Element Number" as true
+5. Expand the "Shapes"  in "Symbol styles" in the tree of left panel.
+6. Then select "Call Behavior Action" node in the tree
+7. Set "Element Number Display Mode"  option to "Above the element name" or "Before the element name".
+
+Make the configuration above in the template project and use the modified template project.
+1. Using MD to open template.mdzip in <MD>/templates folder.
+2. Perform follow as "MD configuration in order to make numbering appear by project" section.
+3. Save and close the template.mdzip file.
+4. Click "File" -> "New Project..." , then "New Project" dialog will appear.
+5. Click "Other" section in the left panel and then select "Project from Template" .
+6. Assign the name and location of new project. 
+7. Then click "OK" button to finish creating project.
+
+Remark: 
+	- For cyclic parent, the numbering may order strange. But it does not freeze MD.
+	- For moving and deleting the Call Behavior Action, the tree does not refresh the data about the changed ID.So the user need to save the project, then the tree will be refreshed. (This issue is a known bug, it will be fixed in 17.0.2 SP1.)

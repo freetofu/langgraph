@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+        id="magicgptplugin"
+        name="MagicGPTPlugin"
+        version="1.0"
+        provider-name="No Magic"
+        class="magicgptplugin.MagicGPTPlugin">
+
+    <requires>
+        <api version="1.2"/>
+    </requires>
+
+    <runtime>
+        <library name="magicgptplugin.jar"/>
+    </runtime>
+</plugin>

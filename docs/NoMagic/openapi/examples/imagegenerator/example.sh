@@ -1,0 +1,2 @@
+# Imagegenerator application can be started from different locations but its working directory will remain openapi/examples.
+./imagegenerator \"project=../../samples/diagrams/class diagram.mdzip\" destination_dir=imagegenerator/profile_diagrams

@@ -1,0 +1,31 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<name>Maven Default Project</name>
+
+	<groupId>com.nomagic.magicdraw.examples</groupId>
+	<artifactId>executesample</artifactId>
+	<version>1.0</version>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>com.nomagic.magicdraw</groupId>
+				<artifactId>mdmvn</artifactId>
+				<configuration>
+					<md_home>../../../..</md_home> <!-- MagicDraw home. -->
+					<main_class>com.nomagic.magicdraw.examples.imagegenerator.ExportDiagramImages</main_class> <!-- Main class of your application. -->
+					<classpath>openapi/examples/imagegenerator/imagegenerator.jar</classpath> <!-- Additional classpath. All MagicDraw jars are already included. -->
+					<app_args>project_file=openapi/examples/mavenintegration/execute/project.mdzip destination_dir=openapi/examples/mavenintegration/execute</app_args> <!-- Application arguments. -->
+            </configuration>
+        <executions>
+          <execution>
+            <goals>
+              <goal>run</goal>
+            </goals>
+          </execution>
+        </executions>
+
+      </plugin>
+    </plugins>
+  </build>
+</project>

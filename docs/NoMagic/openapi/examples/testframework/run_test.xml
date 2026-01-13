@@ -1,0 +1,72 @@
+<!--
+Usage: ant -lib <JUnit5 jars folder> -Djunit5.jars=<JUnit5 jars folder> -f run_tests.xml
+JUnit5 jars folder must contain following files:
+junit-4.x
+junit-platform-commons
+junit-platform-engine
+junit-platform-launcher
+junit-jupiter-engine
+junit-jupiter-api
+junit-vintage-engine
+opentest4j
+
+-->
+<project name="MagicDraw Test Framework sample" default="build" basedir=".">
+
+	<target name="set.properties">
+		<property name="src" location="${basedir}" />
+		<property name="build" location="bin" />
+		<property name="magicdraw.home" location="../../.." />
+		<property name="magicdraw.lib" location="${magicdraw.home}/lib" />
+		<property name="junit5.jars" location="Download junit5 jars and define location" />
+
+		<condition property="run" value="true">
+			<available file="${junit5.jars}" type="dir"/>
+		</condition>
+		<fail message="Usage: ant -lib [JUnit5 jars folder] -Djunit5.jars=[JUnit5 jars folder] -f run_tests.xml" unless="run"/>
+	</target>
+
+	<target name="build" depends="set.properties, test">
+	</target>
+
+	<target name="compile" description="compiles report tool java source code">
+		<mkdir dir="${build}" />
+		<javac srcdir="${src}" destdir="${build}">
+			<classpath path="${magicdraw.lib}/classpath.jar"/>
+		</javac>
+	</target>
+
+	<target name="test" depends="compile">
+		<junitlauncher printsummary="true">
+			<classpath>
+				<fileset dir="${junit5.jars}">
+					<include name="junit-4.*.jar" />
+					<include name="junit-platform-commons-*.jar" />
+					<include name="junit-platform-engine-*.jar" />
+					<include name="junit-platform-launcher-*.jar" />
+					<include name="junit-jupiter-engine-*.jar" />
+					<include name="junit-jupiter-api-*.jar" />
+					<include name="junit-vintage-engine-*.jar" />
+					<include name="opentest4j-*.jar" />
+				</fileset>
+				<pathelement path="${magicdraw.lib}/classpath.jar"/>
+				<pathelement path="${build}" />
+			</classpath>
+
+			<testclasses>
+				<fileset dir="${build}">
+					<include name="**/ComponentCreatorTest.class"/>
+					<include name="**/DiagramLayoutTest.class"/>
+					<include name="**/ConvertElementTest.class"/>
+				</fileset>
+				<listener type="legacy-xml" sendSysErr="true" sendSysOut="true"/>
+				<fork dir="${magicdraw.home}">
+					<jvmarg value="-Xmx1000m" />
+					<sysproperty key="tests.resources" value="${basedir}/resources" />
+					<sysproperty key="install.root" value="${magicdraw.home}" />
+					<sysproperty key="esi.system.config" value="${magicdraw.home}/data/application.conf" />
+				</fork>
+			</testclasses>
+		</junitlauncher>
+	</target>
+</project>

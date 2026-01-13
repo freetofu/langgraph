@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.nomagic.magicdraw.examples.customlanguagebodyeditor" name="Custom Language Body Editor" version="2026x" provider-name="No Magic" class="com.nomagic.magicdraw.examples.customlanguagebodyeditor.CustomLanguageBodyEditorPlugin">
+  <requires>
+    <api version="1.0"/>
+  </requires>
+  <runtime>
+    <library name="customlanguagebodyeditor-2026.0.0-57-a2cdbb58.jar"/>
+  </runtime>
+</plugin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.nomagic.magicdraw.simulation.examples.ExternalValueInDiagrams" name="External Value in Diagrams (Example)" version="2026x" provider-name="No Magic" class="com.nomagic.magicdraw.simulation.examples.ExternalValueInDiagramsPlugin">
+  <requires>
+    <api version="1.0"/>
+    <required-plugin id="SimulationDashboardPlugin" name="Cameo Simulation Dashboard" version="2026x" internalVersion="202600000"/>
+  </requires>
+  <runtime>
+    <library name="externalvalueindiagrams-2026.0.0-57-a2cdbb58.jar"/>
+  </runtime>
+</plugin>

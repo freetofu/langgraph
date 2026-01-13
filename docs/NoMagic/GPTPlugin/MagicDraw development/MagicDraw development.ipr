@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+    </wildcardResourcePatterns>
+  </component>
+  <component name="CopyrightManager" default="" />
+  <component name="DependencyValidationManager">
+    <option name="SKIP_IMPORT_STATEMENTS" value="false" />
+  </component>
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+      <option name="myLocal" value="true" />
+      <inspection_tool class="ConstantConditions" enabled="true" level="WARNING" enabled_by_default="true">
+        <option name="SUGGEST_NULLABLE_ANNOTATIONS" value="true" />
+        <option name="DONT_REPORT_TRUE_ASSERT_STATEMENTS" value="false" />
+      </inspection_tool>
+      <inspection_tool class="ForCanBeForeach" enabled="false" level="WARNING" enabled_by_default="false">
+        <option name="REPORT_INDEXED_LOOP" value="true" />
+        <option name="ignoreUntypedCollections" value="false" />
+      </inspection_tool>
+      <inspection_tool class="JavaDoc" enabled="true" level="WARNING" enabled_by_default="true">
+        <option name="TOP_LEVEL_CLASS_OPTIONS">
+          <value>
+            <option name="ACCESS_JAVADOC_REQUIRED_FOR" value="none" />
+            <option name="REQUIRED_TAGS" value="" />
+          </value>
+        </option>
+        <option name="INNER_CLASS_OPTIONS">
+          <value>
+            <option name="ACCESS_JAVADOC_REQUIRED_FOR" value="none" />
+            <option name="REQUIRED_TAGS" value="" />
+          </value>
+        </option>
+        <option name="METHOD_OPTIONS">
+          <value>
+            <option name="ACCESS_JAVADOC_REQUIRED_FOR" value="none" />
+            <option name="REQUIRED_TAGS" value="@return@param@throws or @exception" />
+          </value>
+        </option>
+        <option name="FIELD_OPTIONS">
+          <value>
+            <option name="ACCESS_JAVADOC_REQUIRED_FOR" value="none" />
+            <option name="REQUIRED_TAGS" value="" />
+          </value>
+        </option>
+        <option name="IGNORE_DEPRECATED" value="false" />
+        <option name="IGNORE_JAVADOC_PERIOD" value="true" />
+        <option name="IGNORE_DUPLICATED_THROWS" value="false" />
+        <option name="IGNORE_POINT_TO_ITSELF" value="false" />
+        <option name="myAdditionalJavadocTags" value="openapi" />
+      </inspection_tool>
+      <inspection_tool class="LoggerInitializedWithForeignClass" enabled="false" level="WARNING" enabled_by_default="false">
+        <option name="loggerClassName" value="org.apache.log4j.Logger,org.slf4j.LoggerFactory,org.apache.commons.logging.LogFactory,java.util.logging.Logger" />
+        <option name="loggerFactoryMethodName" value="getLogger,getLogger,getLog,getLogger" />
+      </inspection_tool>
+    </profile>
+    <version value="1.0" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/plugins/All Plugins/All Plugins.iml" filepath="$PROJECT_DIR$/plugins/All Plugins/All Plugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/My Commandline/My Commandline.iml" filepath="$PROJECT_DIR$/My Commandline/My Commandline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/My Plug-in 1/My Plug-in 1.iml" filepath="$PROJECT_DIR$/plugins/My Plug-in 1/My Plug-in 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/My Plug-in 2/My Plug-in 2.iml" filepath="$PROJECT_DIR$/plugins/My Plug-in 2/My Plug-in 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/MagicGPTPlugin/MagicGPTPlugin.iml" filepath="$PROJECT_DIR$/plugins/MagicGPTPlugin/MagicGPTPlugin.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectRunConfigurationManager">
+    <configuration default="false" name="MyPlugin1JUnit3Test" type="JUnit" factoryName="JUnit">
+      <module name="All Plugins" />
+      <useClassPathOnly />
+      <option name="PACKAGE_NAME" value="myplugin1" />
+      <option name="MAIN_CLASS_NAME" value="myplugin1.MyPlugin1JUnit3Test" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-Xmx4000M -Xss1024K -Dmd.development=true -Dfile.encoding=UTF-8 -Dinstall.root=${MAGIC_DRAW_INSTALL_DIRECTORY} -Dmd.plugins.dir=${MAGIC_DRAW_INSTALL_DIRECTORY}/plugins;.. @${MAGIC_DRAW_INSTALL_DIRECTORY}/bin/vm.options" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="false" name="MyPlugin1JUnit4Test" type="JUnit" factoryName="JUnit">
+      <module name="All Plugins" />
+      <useClassPathOnly />
+      <option name="PACKAGE_NAME" value="myplugin1" />
+      <option name="MAIN_CLASS_NAME" value="myplugin1.MyPlugin1JUnit4Test" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-Xmx4000M -Xss1024K -Dmd.development=true -Dfile.encoding=UTF-8 -Dmd.plugins.dir=${MAGIC_DRAW_INSTALL_DIRECTORY}/plugins;.. @${MAGIC_DRAW_INSTALL_DIRECTORY}/bin/vm.options" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="false" name="MyPlugin1JUnit5Test" type="JUnit" factoryName="JUnit">
+      <module name="All Plugins" />
+      <useClassPathOnly />
+      <option name="PACKAGE_NAME" value="myplugin1" />
+      <option name="MAIN_CLASS_NAME" value="myplugin1.MyPlugin1JUnit5Test" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-Xmx4000M -Xss1024K -Dmd.development=true -Dfile.encoding=UTF-8 -Dmd.plugins.dir=${MAGIC_DRAW_INSTALL_DIRECTORY}/plugins;.. @${MAGIC_DRAW_INSTALL_DIRECTORY}/bin/vm.options" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="false" name="MagicDraw with all plugins" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.nomagic.magicdraw.Main" />
+      <module name="All Plugins" />
+      <option name="PROGRAM_PARAMETERS" value="-verbose" />
+      <option name="VM_PARAMETERS" value="-Xmx4000M -Xss1024K -Dmd.development=true -Dinstall.root=${MAGIC_DRAW_INSTALL_DIRECTORY} -Dfile.encoding=UTF-8 -Dmd.plugins.dir=${MAGIC_DRAW_INSTALL_DIRECTORY}/plugins;.. @${MAGIC_DRAW_INSTALL_DIRECTORY}/bin/vm.options" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="false" name="MyCommandline" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="mycommandline.MyCommandline" />
+      <module name="My Commandline" />
+      <option name="PROGRAM_PARAMETERS" value="-verbose" />
+      <option name="VM_PARAMETERS" value="-Xmx4000M -Xss1024K -Dmd.development=true -Dfile.encoding=UTF-8 @${MAGIC_DRAW_INSTALL_DIRECTORY}/bin/vm.options" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="libraryTable">
+    <library name="MagicDraw Libs">
+      <CLASSES>
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/core-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/common-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.rcpf.pl-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.ci.pl-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/md-license-utils-1.1.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/md-flexlm-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/eccpresso-all-11.14.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.dassault_systemes.modeler.foundation.image.svg-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/batik-all-1.18.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/xml-apis-ext-1.3.04.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/xmlgraphics-commons-2.10.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/gson-2.9.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/freehep-base-1.0.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/freehep-graphics2d-1.0.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/freehep-graphicsio-1.0.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/freehep-graphicsio-emf-1.0.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/freehep-graphicsio-ps-1.0.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jna-5.14.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/commons-codec-1.16.1.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/org.osgi.annotation.versioning-1.1.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/bcprov-jdk18on-1.81.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.magicdraw.uml2-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/cmof-1.4.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/org.eclipse.emf.common-2.41.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/log4j-1.2-api-2.23.1.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/org.eclipse.uml2.common-1.5.0.v201005031530.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.magicdraw.modeling-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.text-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jaxb-runtime-4.0.5.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jaxb-core-4.0.5.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/angus-activation-2.0.2.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/txw2-4.0.5.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/istack-commons-runtime-4.1.2.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.dassault_systemes.modeler.foundation.common-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.dassault_systemes.modeler.foundation-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.dassault_systemes.modeler.foundation.ui-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.dassault_systemes.modeler.foundation.diagram.persistence-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.dassault_systemes.modeler.foundation.diagram-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.dassault_systemes.modeler.foundation.image-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.magicdraw.core.diagram-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.magicdraw.esi.binary.metamodel-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.magicdraw.esi.esiproject-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.esi.resourceupdate.uml-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.esi.resourceupdate-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.magicdraw.core.project.options-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.magicdraw.ce-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.magicdraw.security-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.ci.persistence-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.ci-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.ci.persistence.local-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/truezip-driver-zip-7.7.10.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/truezip-swing-7.7.10.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/truezip-kernel-7.7.10.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/commons-compress-1.26.1.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.ci.binary-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.ci.metamodel.project-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.ci.services-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.magicdraw.foundation-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.utils-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/launcher-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.magicdraw.resourcedescriptor-1.0.2.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jhall-2.0_03.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/Saxon-HE-11.4.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/xmlresolver-4.4.3.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/xmlresolver-4.4.3-data.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/md-yfiles-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/trove4j-3.0.3.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/commons-collections4-4.4.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/commons-math3-3.6.1.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jsr250-api-1.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jtidy-1.0.5.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/JUnitParams-1.0.1.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/lucene-analysis-common-9.12.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/lucene-core-9.12.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/lucene-misc-9.12.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/poi-5.4.1.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/SparseBitSet-1.3.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/poi-ooxml-5.4.1.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/poi-ooxml-full-5.4.1.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/xmlbeans-5.2.1.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/annotation-1.11.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/log4j-api-2.23.1.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/log4j-core-2.23.1.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/tas-1.4.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/org.eclipse.emf.ecore-2.38.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/org.eclipse.emf.ecore.xmi-2.38.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/commons-lang3-3.18.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/kryo-esi-4.0.2.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/asm-9.5.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jxbrowser-8.11.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jxbrowser-linux64-8.11.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jxbrowser-linux64-arm-8.11.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jxbrowser-mac-8.11.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jxbrowser-mac-arm-8.11.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jxbrowser-win64-8.11.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jxbrowser-win64-arm-8.11.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jxbrowser-swing-8.11.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/junit-jupiter-api-5.9.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/opentest4j-1.2.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/junit-platform-commons-1.9.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/apiguardian-api-1.1.2.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/junit-4.13.2.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/hamcrest-core-1.3.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jsr305-3.0.2.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/joda-time-2.12.7.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jide-action-3.8.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jide-charts-3.8.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jide-common-3.8.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jide-diff-3.8.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jide-components-3.8.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jide-dock-3.8.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jide-editor-3.8.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jide-gantt-3.8.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jide-grids-3.8.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jide-shortcut-3.8.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/javax.jmi-1.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jakarta.activation-api-2.1.2.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jakarta.xml.bind-api-4.0.2.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/httpclient-4.5.14.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/httpcore-4.4.16.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/commons-logging-1.3.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/HTMLEditorEnterprise-23.3.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/commons-io-2.16.1.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.esi.emf-2026.0.0.v20250918-1231.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.esi.config-2026.0.0.v20250918-1231.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/config-1.4.3.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/decryptor-2022x-e59cbba6.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.esi.helper-2026.0.0.v20250918-1231.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.esi.core.msg-2026.0.0.v20250918-1231.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.esi.client.core-2026.0.0.v20250918-1231.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.esi.stream-2026.0.0.v20250918-1231.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.esi.services.client-2026.0.0.v20250918-1231.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/akka-actor_2.13-2.10.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/scala-library-2.13.15.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.esi.services.api-2026.0.0.v20250918-1231.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/akka-remote_2.13-2.10.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/akka-stream_2.13-2.10.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/akka-protobuf-v3_2.13-2.10.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/reactive-streams-1.0.3.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/akka-pki_2.13-2.10.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/asn-one-0.6.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/agrona-1.22.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.esi.services.common-2026.0.0.v20250918-1231.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.esi.client.twc-2026.0.0.v20250918-1231.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.esi.net-2026.0.0.v20250918-1231.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/netty-handler-4.1.123.Final.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/netty-common-4.1.123.Final.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/netty-resolver-4.1.123.Final.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/netty-buffer-4.1.123.Final.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/netty-transport-4.1.123.Final.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/netty-transport-native-unix-common-4.1.123.Final.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/netty-codec-4.1.123.Final.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/netty-codec-http-4.1.123.Final.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/netty-tcnative-classes-2.0.70.Final.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/netty-codec-socks-4.1.123.Final.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/netty-handler-proxy-4.1.123.Final.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/netty-transport-classes-kqueue-4.1.123.Final.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/netty-transport-native-kqueue-4.1.123.Final.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/netty-transport-classes-epoll-4.1.123.Final.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/netty-transport-native-epoll-4.1.123.Final.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/netty-tcnative-boringssl-static-2.0.70.Final.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/netty-tcnative-boringssl-static-2.0.70.Final-linux-x86_64.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/netty-tcnative-boringssl-static-2.0.70.Final-linux-aarch_64.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/netty-tcnative-boringssl-static-2.0.70.Final-osx-x86_64.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/netty-tcnative-boringssl-static-2.0.70.Final-osx-aarch_64.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/netty-tcnative-boringssl-static-2.0.70.Final-windows-x86_64.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.esi.serializer-2026.0.0.v20250918-1231.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/lz4-java-1.8.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.esi.common-2026.0.0.v20250918-1231.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/guava-33.0.0-jre.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/failureaccess-1.0.2.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/checker-qual-3.41.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/error_prone_annotations-2.23.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/j2objc-annotations-2.8.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/metrics-core-4.2.23.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/metrics-jmx-4.2.23.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.esi.api-2026.0.0.v20250918-1231.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.esi.announcement.client-2026.0.0.v20250918-1231.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.esi.announcement.msg-2026.0.0.v20250918-1231.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.esi.api.messages-2026.0.0.v20250918-1231.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.umlresources-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.dassault_systemes.catia.mbse.esi-2026.0.0.v20250918-1231.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/CATMBSESerialization-R2026x.v202506132355.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/FcsClient-R2026x.v202504182346.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/sgi-api14-R2026x.v202506132355.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jaxb-api-2.2.11.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/httpmime-4.5.14.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/json-20240303.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.dassault_systemes.catia.mbse.esi.md-2026.0.0.v20250918-1231.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jackson-core-2.17.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/log4j-slf4j2-impl-2.23.1.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/slf4j-api-2.0.10.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/akka-slf4j_2.13-2.10.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.esi.serializer.akka-2026.0.0.v20250918-1231.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.dassault_systemes.dsclient-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.dassault_systemes.modeler.patch-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.dassault_systemes.modeler.patch.preview-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.dassault_systemes.modeler.esi-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jackson-databind-2.17.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/jackson-annotations-2.17.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/byte-buddy-1.14.9.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/webux-components-api-5.15.2.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/webux-components-ui-5.15.2.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/commons-text-1.10.0.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.dassault_systemes.modeler.foundation.fonts-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.magicdraw.elementreferenceintext-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.magicdraw.fileattachments-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/com.nomagic.magicdraw.importexport-2026.0.0-57-a2cdbb58.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/supercsv-1.52.jar!/" />
+        <root url="jar://$MAGIC_DRAW_INSTALL_DIRECTORY$/lib/xercesImpl-2.12.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="http://jdocs.nomagic.com/2026x/" />
+      </JAVADOC>
+      <SOURCES />
+    </library>
+    <library name="Test Libs">
+      <CLASSES>
+        <root url="file://$PROJECT_DIR$/testLibs" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+      <jarDirectory url="file://$PROJECT_DIR$/testLibs" recursive="false" />
+    </library>
+  </component>
+</project>
