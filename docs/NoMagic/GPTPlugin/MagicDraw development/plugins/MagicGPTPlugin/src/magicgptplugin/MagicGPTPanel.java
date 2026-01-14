@@ -14,13 +14,16 @@ public class MagicGPTPanel extends ExtendedPanel implements WindowComponent
 	private final WindowComponentInfo info;
 	private final JTextArea chatArea;
 	private final JTextArea inputArea;
+	private final MagicGPTController controller;
+	private final JButton sendButton;
 
 	public MagicGPTPanel(WindowComponentInfo info)
 	{
 		this.info = info;
+		this.controller = new MagicGPTController();
 		setLayout(new BorderLayout(8, 8));
 
-		JLabel header = new JLabel("MagicGPT Chat");
+		JLabel header = new JLabel("MagicGPT 대화");
 		add(header, BorderLayout.NORTH);
 
 		chatArea = new JTextArea(12, 40);
@@ -37,10 +40,10 @@ public class MagicGPTPanel extends ExtendedPanel implements WindowComponent
 
 		JScrollPane inputScroll = new JScrollPane(inputArea);
 
-		JButton sendButton = new JButton("Send");
+		sendButton = new JButton("전송");
 		sendButton.addActionListener(this::onSend);
 
-		JButton clearButton = new JButton("Clear");
+		JButton clearButton = new JButton("지우기");
 		clearButton.addActionListener(e -> inputArea.setText(""));
 
 		JPanel buttons = new JPanel(new FlowLayout(FlowLayout.RIGHT, 8, 0));
@@ -74,9 +77,36 @@ public class MagicGPTPanel extends ExtendedPanel implements WindowComponent
 			return;
 		}
 
-		appendLine("You: " + text);
-		appendLine("GPT: (not connected yet)");
+		appendLine("나: " + text);
 		inputArea.setText("");
+		sendButton.setEnabled(false);
+		SwingWorker<String, Void> worker = new SwingWorker<>()
+		{
+			@Override
+			protected String doInBackground()
+			{
+				return controller.handleQuery(text);
+			}
+
+			@Override
+			protected void done()
+			{
+				try
+				{
+					String response = get();
+					appendLine("GPT: " + response);
+				}
+				catch (Exception error)
+				{
+					appendLine("GPT: 오류가 발생했습니다 - " + error.getMessage());
+				}
+				finally
+				{
+					sendButton.setEnabled(true);
+				}
+			}
+		};
+		worker.execute();
 	}
 
 	private void appendLine(String line)
