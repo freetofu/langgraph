@@ -8,6 +8,11 @@ public class ProposalService
 		{
 			return ProposalSet.failure(response.getErrorMessage());
 		}
-		return ProposalSet.success(response.getMessage());
+		ModelSpecParser.ParseResult parsed = ModelSpecParser.parse(response.getMessage());
+		if (!parsed.isSuccess())
+		{
+			return ProposalSet.failure("Failed to parse JSON response: " + parsed.getErrorMessage());
+		}
+		return ProposalSet.success(parsed.getRawJson(), parsed.getSpec());
 	}
 }

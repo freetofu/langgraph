@@ -1,5 +1,9 @@
 package magicgptplugin;
 
+import java.io.File;
+import java.util.Collections;
+import java.util.List;
+
 public class MagicGPTController
 {
 	private final ContextService contextService;
@@ -17,14 +21,23 @@ public class MagicGPTController
 
 	public String handleQuery(String query)
 	{
-		ContextPayload context = contextService.buildContext(query);
+		return handleQuery(query, Collections.emptyList());
+	}
+
+	public String handleQuery(String query, List<File> attachments)
+	{
+		ContextPayload context = contextService.buildContext(query, attachments);
 		GptResponse response = gptService.ask(context);
 		ProposalSet proposals = proposalService.buildProposals(response);
 		ApplyResult applyResult = applyService.applyAll(proposals);
-		if (!applyResult.isSuccess())
+		if (applyResult.getStatus() == ApplyResult.Status.FAILED)
 		{
-			return "오류: " + applyResult.getErrorMessage();
+			return "Error: " + applyResult.getErrorMessage();
 		}
-		return applyResult.getSummary();
+		if (applyResult.getStatus() == ApplyResult.Status.PARTIAL)
+		{
+			return "Partial: " + applyResult.getSummary();
+		}
+		return "Done: " + applyResult.getSummary();
 	}
 }

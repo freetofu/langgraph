@@ -11,6 +11,9 @@
     </requires>
 
     <runtime>
-        <library name="magicgptplugin.jar"/>
+        <library name="lib/MagicGPTPlugin.jar"/>
+        <library name="lib/pdfbox-2.0.30.jar"/>
+        <library name="lib/fontbox-2.0.30.jar"/>
+        <library name="lib/commons-logging-1.2.jar"/>
     </runtime>
 </plugin>
